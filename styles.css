@@ -1,0 +1,130 @@
+body{
+    margin: 0 auto;
+    min-height: 100vh;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
+}
+header, footer {
+    background-color: #1F2937;
+   
+}
+h3 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+.header-info, li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   gap: 32px;
+}
+.logo {
+    font-size: 24px;
+
+}
+.header-one, .header-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+ button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: 1px solid;
+}
+.header-info button {
+    border: none;
+}
+.header-info { width: 50%;}
+
+
+.image-header {
+    width: 40%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+   
+}
+.image-header p {
+    color: #E5E7EB;
+    
+}
+h4 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: gray;
+    
+}
+.info1 {
+    width: 100px;
+    height: auto;
+    text-align: center;
+}
+.image-holder {
+    width: 100px;
+    height: 100px;
+    
+}
+.image {
+    width:100px;
+    height: 100px;
+    border: 1px solid #3882F6;
+    border-radius: 5%;
+    
+}
+.quote {
+    background-color: #E5E7EB;
+    flex: 1;
+    padding: 30px 60px;
+    margin-top: 50px;
+}
+.quote p {
+    font-size: 36px;
+    
+    color:  #1F2937;
+}
+span {
+    font-size: 36px;
+    font-weight: 600;
+    float: right;
+   
+}
+.sign-up {
+    background-color: #3882F6;
+    margin: 50px 100px;
+    padding: 24px 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+   
+}
+footer {
+    text-align: center;
+}
