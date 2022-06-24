@@ -6,14 +6,17 @@ body{
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 header, footer {
     background-color: #1F2937;
    
 }
+
 h3 {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0;
 }
@@ -21,6 +24,7 @@ h3 {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
+    
 }
 
 ul {
@@ -29,6 +33,7 @@ ul {
     margin: 0;
     padding: 0;
    gap: 32px;
+   font-family: 'Montserrat', sans-serif;
 }
 .logo {
     font-size: 24px;
@@ -47,16 +52,17 @@ ul {
     border-radius: 5px;
     border-color: white;
     border-style: 1px solid;
-}
-.header-info button {
     border: none;
 }
+
 .header-info { width: 50%;}
 
-
+.header-info p {
+    font-family: 'Montserrat', sans-serif;
+}
 .image-header {
-    width: 40%;
-    background-color: gray;
+    width: 55%;
+    background-color: rgb(130, 135, 146);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +71,7 @@ ul {
 }
 .image-header p {
     color: #E5E7EB;
-    
+  
 }
 h4 {
     font-size: 36px;
@@ -73,6 +79,10 @@ h4 {
     color: #1F2937;
     text-align: center;
     
+}
+h5 {
+    font-size: 24px;
+    margin: 0;
 }
 .info {
     display: flex;
@@ -101,19 +111,22 @@ h4 {
 .quote {
     background-color: #E5E7EB;
     flex: 1;
-    padding: 30px 60px;
+    padding: 60px 100px;
     margin-top: 50px;
 }
 .quote p {
     font-size: 36px;
-    
+    font-style: italic;
+    font-weight: lighter;
     color:  #1F2937;
+    font-family: 'Montserrat', sans-serif;
+
 }
 span {
     font-size: 36px;
     font-weight: 600;
     float: right;
-   
+    color: #1F2937;
 }
 .sign-up {
     background-color: #3882F6;
@@ -124,6 +137,13 @@ span {
     align-items: center;
     border-radius: 5px;
    
+}
+.sign-up button {
+    border: 1px solid white;
+}
+.sign-up div p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 footer {
     text-align: center;
